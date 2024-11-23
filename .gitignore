@@ -1,0 +1,22 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment files
+.env
+*.env
+
+# Data files
+data/*
+!data/sample_data.csv  # Ignore all files in 'data' except the sample dataset
+
+# Outputs
+outputs/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Operating system files
+.DS_Store
+Thumbs.db
