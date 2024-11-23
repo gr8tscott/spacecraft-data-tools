@@ -19,7 +19,22 @@ A collection of Python scripts designed for analyzing spacecraft and satellite d
   ```bash
     pip install -r requirements.txt
   ```
+
+  ---
+## Usage
+- Replace the placeholder data/sample_data.csv with your dataset.
+- Run the relevant script from the scripts/ folder. Example:
+  ```bash
+    python scripts/data_ingestion.py --file data/your_data.csv
+  ```
+  Note: you may nead to use 'python3' instead of python depending on your system.
+- Review the sample dataset file that corresponds to the analysis you plan to do, confirm your dataset has a similar format, and replace the data/some_sample_data.csv with data/your_data.csv.
+
+  ---
+
 ## Repository Structure
+See [FileStructure.md](/FileStructure.md) for more detail on scripts, files, and structure.
+
   ```bash
     spacecraft-data-tools/ 
     ├── README.md # Overview and instructions 
@@ -72,13 +87,7 @@ A collection of Python scripts designed for analyzing spacecraft and satellite d
 - Compress datasets using GZIP, Parquet, or ZIP.
 
 ---
-## Usage
-- Replace the placeholder data/sample_data.csv with your dataset.
-- Run the relevant script from the scripts/ folder. Example:
-  ```bash
-    python scripts/data_ingestion.py --file data/your_data.csv
-  ```
-  Note: you may nead to use 'python3' instead of python depending on your system.
+
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
