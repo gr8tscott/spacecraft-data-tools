@@ -8,12 +8,16 @@ __pycache__/
 *.env
 
 # # Data files
-# data/*
-# !data/sample_data.csv  # Ignore all files in 'data' except the sample dataset
+data/*
+!data/sample_data.csv  # Ignore all files in 'data' except the sample dataset
+!data/sample_gyro_data.csv
+!data/sample_power_data.csv
+!data/sample_attitude_data.csv
+!data/sample_temperature_data.csv
 
-# # Outputs
-# outputs/*
-# outputs/anomalies*
+# Outputs
+outputs/*
+outputs/anomalies*
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints

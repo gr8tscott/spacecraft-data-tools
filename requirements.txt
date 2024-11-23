@@ -4,6 +4,7 @@ matplotlib
 seaborn
 scipy
 plotly
+os
 
 dask  # For handling larger-than-memory datasets
 scikit-learn  # For machine learning tasks
