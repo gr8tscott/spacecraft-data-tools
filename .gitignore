@@ -7,13 +7,13 @@ __pycache__/
 .env
 *.env
 
-# Data files
-data/*
-!data/sample_data.csv  # Ignore all files in 'data' except the sample dataset
+# # Data files
+# data/*
+# !data/sample_data.csv  # Ignore all files in 'data' except the sample dataset
 
-# Outputs
-outputs/*
-outputs/anomalies*
+# # Outputs
+# outputs/*
+# outputs/anomalies*
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
