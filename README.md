@@ -35,6 +35,7 @@ A collection of Python scripts designed for analyzing spacecraft and satellite d
   ```bash
     python scripts/data_ingestion.py --file data/your_data.csv
   ```
+  Note: you may nead to use 'python3' instead of python depending on your system.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
