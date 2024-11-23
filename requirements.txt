@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+plotly
+
+dask  # For handling larger-than-memory datasets
+scikit-learn  # For machine learning tasks
+poliastro  # For orbital mechanics calculations
