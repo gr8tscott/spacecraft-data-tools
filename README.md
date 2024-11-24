@@ -39,30 +39,30 @@ See [FileStructure.md](/FileStructure.md) for more detail on scripts, files, and
     spacecraft-data-tools/ 
     ├── README.md # Overview and instructions 
     ├── data/ # Sample datasets 
-    │ ├── sample_data.csv # General telemetry data 
-    │ ├── orientation_sample.csv # Orientation data (quaternions and Euler angles) 
-    │ ├── sample_power_data.csv # Power system data 
-    │ ├── sample_attitude_data.csv # Spacecraft attitude data 
-    │ ├── sample_temperature_data.csv # Thermal analysis data 
-    │ ├── sample_gyro_data.csv # Gyroscope sensor data 
+    │   ├── sample_data.csv # General telemetry data 
+    │   ├── orientation_sample.csv # Orientation data (quaternions and Euler angles) 
+    │   ├── sample_power_data.csv # Power system data 
+    │   ├── sample_attitude_data.csv # Spacecraft attitude data 
+    │   ├── sample_temperature_data.csv # Thermal analysis data 
+    │   ├── sample_gyro_data.csv # Gyroscope sensor data 
     ├── scripts/ # Python scripts for data analysis 
-    │ ├── data_ingestion.py # Data ingestion and parsing 
-    │ ├── data_cleaning.py # Parsing and cleaning data 
-    │ ├── data_transformation.py # Fourier Transform and interpolation 
-    │ ├── data_filtering.py # Signal filtering (low-pass, high-pass, band-pass) 
-    │ ├── statistical_analysis.py # Statistical computations and correlation matrix 
-    │ ├── time_series_plotting.py # Time-series data visualization 
-    │ ├── orientation_3d_visualization.py # 3D orientation visualization 
-    │ ├── anomaly_detection.py # Detect anomalies in telemetry 
-    │ ├── orbital_analysis.py # Calculate orbital elements and validate trajectories 
-    │ ├── power_system_monitoring.py # Power generation and consumption analysis 
-    │ ├── attitude_control_analysis.py # Validate orientation and sensor data 
-    │ ├── thermal_analysis.py # Temperature tracking and heat dissipation modeling 
-    │ ├── data_compression_storage.py # Compress datasets and export formats 
+    │   ├── data_ingestion.py # Data ingestion and parsing 
+    │   ├── data_cleaning.py # Parsing and cleaning data 
+    │   ├── data_transformation.py # Fourier Transform and interpolation 
+    │   ├── data_filtering.py # Signal filtering (low-pass, high-pass, band-pass) 
+    │   ├── statistical_analysis.py # Statistical computations and correlation matrix 
+    │   ├── time_series_plotting.py # Time-series data visualization 
+    │   ├── orientation_3d_visualization.py # 3D orientation visualization 
+    │   ├── anomaly_detection.py # Detect anomalies in telemetry 
+    │   ├── orbital_analysis.py # Calculate orbital elements and validate trajectories 
+    │   ├── power_system_monitoring.py # Power generation and consumption analysis 
+    │   ├── attitude_control_analysis.py # Validate orientation and sensor data 
+    │   ├── thermal_analysis.py # Temperature tracking and heat dissipation modeling 
+    │   ├── data_compression_storage.py # Compress datasets and export formats 
     ├── outputs/ # Example outputs (e.g., plots, summaries) 
-    │ ├── anomalies/ # Detected anomalies 
-    │ ├── plots/ # Visualization outputs 
-    │ ├── compressed/ # Compressed datasets 
+    │   ├── anomalies/ # Detected anomalies 
+    │   ├── plots/ # Visualization outputs 
+    │   ├── compressed/ # Compressed datasets 
     ├── requirements.txt # Required Python libraries
   ```
 ---
